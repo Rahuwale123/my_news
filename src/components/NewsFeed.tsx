@@ -14,7 +14,7 @@ const NewsFeed = () => {
     const fetchNews = async () => {
       try {
         setLoading(true);
-        const response = await fetch(`/.netlify/functions/news?category=${activeCategory}`);
+        const response = await fetch(`/api/news?category=${activeCategory}`);
         const data = await response.json();
         setArticles(data);
         setLoading(false);

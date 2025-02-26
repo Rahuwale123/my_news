@@ -9,6 +9,7 @@ const nextConfig = {
     ],
   },
   output: 'standalone', // Add this for Netlify deployment
+  trailingSlash: true, // Add this
 }
 
 module.exports = nextConfig 

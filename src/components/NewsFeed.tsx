@@ -35,7 +35,6 @@ const NewsFeed = () => {
         <motion.div
           animate={{
             rotate: 360,
-            borderRadius: ["25%", "50%"],
           }}
           transition={{
             duration: 1,
